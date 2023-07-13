@@ -1,0 +1,47 @@
+#VRML_SIM R2022a utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.09150177660686748 0.020501174637881175 0.9955938563070054 2.702679721832162
+  position 4.955100155270079 -2.397979968476096 1.1821650364289686
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  translation 0 0 -0.18
+  floorSize 5 5
+  floorTileSize 3 3
+}
+Spot {
+  translation 0 1.02 0.464
+}
+Ball {
+  translation -0.64 -0.24 -0.18
+}
+Shape {
+  appearance PBRAppearance {
+    baseColor 0.898039 1 0.556863
+  }
+  geometry Box {
+    size 0.1 0.1 0.1
+  }
+}
+Shape {
+  appearance PBRAppearance {
+    baseColor 0.411765 0.952941 1
+    roughness 0.3
+  }
+  geometry Sphere {
+    radius 0.1
+  }
+}
+DEF BOX Shape {
+  appearance PBRAppearance {
+    baseColor 0.14902 0.403922 1
+  }
+  geometry Box {
+    size 0.3 0.3 0.3
+  }
+}
